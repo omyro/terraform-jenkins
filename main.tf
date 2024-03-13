@@ -44,10 +44,11 @@ resource "aws_security_group" "jenkins" {
   }
 }
 
+#Defines the EC2 instance and arguments
 resource "aws_instance" "jenkins" {
   ami           = "ami-02d7fd1c2af6eead0" # Use the latest Amazon Linux 2 AMI for us-east-1
   instance_type = "t2.micro"
-  key_name      = "your-key-pair-name"
+  key_name      = "your-key-pair-name" #Replace with the name of your key pair in us-east-1
 
   security_groups = [aws_security_group.jenkins.name]
 
