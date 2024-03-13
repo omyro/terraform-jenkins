@@ -4,6 +4,8 @@
 
 Check out my [Hashnode blog post]() for this project!
 
+![image0](./terraform-jenkins-image.png)
+
 ## Introduction
 
 For this demo project, we will use one main Terraform configuration file in a single directory (a monolithic configuration) to create an EC2 instance with a user data script that will install and start Jenkins at launch time.
