@@ -141,7 +141,7 @@ For the EC2 instance, you will use another resource block.
 
 ```yaml
 resource "aws_instance" "jenkins" {
-  ami           = "ami-0c02fb55956c7d316" # Use the latest Amazon Linux 2 AMI for us-east-1
+  ami           = "ami-02d7fd1c2af6eead0" # Use the latest Amazon Linux 2 AMI for us-east-1
   instance_type = "t2.micro"
   key_name      = "your-key-pair-name"
 
