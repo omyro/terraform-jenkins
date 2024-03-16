@@ -40,13 +40,23 @@ For this project, you can use AWS Cloud9 as the IDE because it already has Terra
 
 Sign in to your AWS account and navigate to the AWS Cloud9 dashboard in your AWS Management Console. Check the region you are in on the top right. In this example, the region is us-east-1 (Northern Virginia). 
 
-/
+![image1](images/image1.png)
+
+![image2](images/image2.png)
 
 Click "Create environment." Give the environment a name, such as Terraform-Jenkins and include a brief description. For the Environment type, keep it as "New EC2 instance" and select a t2.micro instance for cost efficiency (free-tier). For the Platform, you can use Amazon Linux 2. Under Network settings, choose "AWS Systems Manager (SSM)" for the Connection, and leave everything else as default. 
 
-/
+![image3](images/image3.png)
+
+![image4](images/image4.png)
+
+![image5](images/image5.png)
+
+![image6](images/image6.png)
 
 Click "Create" on the bottom right. Wait a few minutes for setup completion. (Note: Cloud9 creates an EC2 instance and runs on it; by default, after 30 minutes without user input (inactivity) it auto-hibernates.) You can check the EC2 console and go to Instances to see the running instance.
+
+![image7](images/image7.png)
 
 /
 
