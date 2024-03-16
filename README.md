@@ -76,7 +76,7 @@ terraform -v  # Install if not present
 
 ## Step 3: Writing Terraform Configuration
 
-Main.tf File
+**Main.tf File**
 
 In your Cloud9 environment, you will see the terminal at the bottom, your files and directories on the left panel, and the code editor at the top. Create a new directory and main.tf file using the following commands in the terminal:
 
