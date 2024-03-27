@@ -94,7 +94,7 @@ Paste the following configurations into main.tf:
 
 **Provider Configuration**
 
-Here you are stating the provider you'd like to use (if you'd like a complete list, visit the Terraform Registry for all the provider options). In this case it is AWS, and we'd like to deploy our infrastructure in us-east-1.
+Here you are stating the provider you'd like to use (if you'd like a complete list, visit the Terraform Registry for all the provider options). In this case it is AWS, and we'd like to deploy our infrastructure in us-east-1 (Northern Virginia).
 
 ```yaml
 terraform {
