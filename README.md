@@ -2,7 +2,7 @@
 
 ## A guide to leveraging Terraform to deploy EC2 instances with bootstrapped Jenkins
 
-Check out my [Hashnode blog post]() for this project!
+Check out my [Hashnode blog post](https://omyro.hashnode.dev/deploying-jenkins-on-aws-ec2-using-terraform) for this project!
 
 ![image0](./terraform-jenkins-image.png)
 
