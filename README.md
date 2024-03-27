@@ -54,7 +54,7 @@ In the repository, click on the green "Code" button to copy the HTTPS link to cl
 
 Next, open a new window in VS Code. Click on "Clone Git Repository" and enter the link you copied from GitHub. This will copy the repository to your local machine.
 
-Enter the link you copied from Github:
+
 
 You should now be in your repository. Make sure the terminal is open at the bottom. Your files and directories are on the left panel and the code editor is at the top. It should look like this:
 
@@ -290,7 +290,7 @@ First, run the command below to download the needed plugins.
 
 `terraform init`
 
-Then, check if the syntax of your main.tf is correct by running the following command:
+Then, check if the syntax of your main.tf file is correct by running the following command:
 
 `terraform validate`
 
